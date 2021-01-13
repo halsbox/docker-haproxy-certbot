@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/usr/bin/certbot renew "$@"
+/usr/bin/certbot --http-01-port 8080 renew "$@"
